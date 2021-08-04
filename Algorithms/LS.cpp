@@ -1,6 +1,8 @@
+// Linear Search 
 #include <iostream>
 using namespace std;
 
+// Returns location of the element if present else return -1
 int LinearSearch(int arr[], int n, int ele)
 {
     for (int i = 0; i < n; i++)
